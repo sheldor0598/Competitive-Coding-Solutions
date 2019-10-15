@@ -35,26 +35,26 @@ int main()
             { 
                 if (v%j == 0) 
                 { 
-					if (v/j == j && loc[j]>i) 
-					{
-					   d=loc[j];
-					   star[d]++;
-					}
-                    else
-					{
-						if(loc[j]>i)
-						{
-							d=loc[j];
-							star[d]++;
-						}
-						p=v/j;
-						if(loc[p]>i)
-						{
-							d=loc[p];
-							star[d]++;
-						}
-					}
-                } 
+			if (v/j == j && loc[j]>i) 
+			{
+			   d=loc[j];
+			   star[d]++;
+			}
+			else
+			{
+				if(loc[j]>i)
+				{
+					d=loc[j];
+					star[d]++;
+				}
+				p=v/j;
+				if(loc[p]>i)
+				{
+					d=loc[p];
+					star[d]++;
+				}
+			}
+		} 
             } 
         }
         cout<<*max_element(star,star+n)<<"\n";
