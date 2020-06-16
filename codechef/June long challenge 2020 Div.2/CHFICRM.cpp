@@ -40,11 +40,7 @@ int main()
 	    }
 	    fori(i,0,n)
 	    {
-	        if(i==0 && A[i]>5)
-	        {
-	            p++;
-	            break;
-	        }
+	        if(i==0 && A[i]>5) { p++; break; }
 	        else if(A[i]==5)
 	        {
 	            c5++;
@@ -52,11 +48,7 @@ int main()
 	        }
 	        else if(A[i]==10)
 	        {
-	            if(c5==0)
-	            {
-	                p++;
-	                break;
-	            }
+	            if(c5==0) { p++; break; }
 	            else
 	            {
 	                c5--;
@@ -66,11 +58,7 @@ int main()
 	        }
 	        else if(A[i]==15)
 	        {
-	            if(c10==0 && c5<2)
-	            {
-	                p++;
-	                break;
-	            }
+	            if(c10==0 && c5<2) { p++; break; }
 	            else
 	            {
 	                if(c10>0) c10--;
