@@ -37,7 +37,8 @@ int main()
 	    fori(i,0,n)
 	    {
 	        cin>>A[i];
-	        if(A[i]>k) sum+=(A[i]-k);
+	        if(A[i]>k) 
+	        	sum+=(A[i]-k);
 	    }
 	    cout<<sum<<"\n";
 	}
