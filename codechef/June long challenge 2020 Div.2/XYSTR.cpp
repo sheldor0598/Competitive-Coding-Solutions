@@ -40,15 +40,13 @@ int main()
 	    {
 	        if(s[i]=='x' && s[i+1]=='y')
         	{
-        		cnt++;
 	        	s[i]='@';s[i+1]='@';
-	        	i++;
+	        	cnt++;i++;
 	        }
 	        else if(s[i]=='y' && s[i+1]=='x') 
 	        {
-	        	cnt++;
 	        	s[i]='@';s[i+1]='@';
-	        	i++;
+	        	cnt++;i++;
 	        }
 	    }
 	    cout<<cnt<<"\n";
