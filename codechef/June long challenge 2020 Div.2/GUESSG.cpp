@@ -15,30 +15,14 @@ using namespace std;
 
 int main()
 {
-    #ifndef ONLINE_JUDGE 
-    freopen("inputCF.txt","r",stdin);freopen("outputCF.txt","w",stdout); 
-    #endif 
-    #ifndef ONLINE_JUDGE 
-    freopen("inputHR.txt","r",stdin);freopen("outputHR.txt","w",stdout);
-	#endif 
 	#ifndef ONLINE_JUDGE 
-	freopen("input.txt","r",stdin);freopen("output.txt","w",stdout);
-	#endif 
-	#ifndef ONLINE_JUDGE 
-	freopen("inputCC.txt","r",stdin);freopen("outputCC.txt","w",stdout);
-	#endif 
-	#ifndef ONLINE_JUDGE 
-	freopen("inputGFG.txt","r",stdin);freopen("outputGFG.txt","w",stdout);
-	#endif 
-	#ifndef ONLINE_JUDGE 
-	freopen("inputCC.txt","r",stdin);freopen("outputCC.txt","w",stdout); 
+	freopen("inputCC.txt","r",stdin);
+	freopen("outputCC.txt","w",stdout); 
 	#endif
 	KILL HER NOW 
 	LL n,first,last,y;
 	cin>>n;
-	last=n;
-	LL tr=1;while(tr--){} 
-	first=1;
+	last=n; first=1;
 	LL prev;
 	while(first<=last)
 	{ 
