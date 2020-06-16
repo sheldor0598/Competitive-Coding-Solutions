@@ -34,8 +34,9 @@ int main()
 		LL ts,js;
         cin>>ts;
         while(ts%2==0) ts/=2;
-        if(ts==1) cout<<0<<"\n";
-        else if(ts%2!=0) cout<<ts/2<<"\n";
+        if(ts==1) cout<<0;
+        else if(ts%2!=0) cout<<ts/2;
+        endl;
     }
 	return 0;
 }
