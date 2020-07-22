@@ -34,14 +34,7 @@ int main()
 		strcpy(A,s1.c_str());
 		strcpy(B,s2.c_str());
 		vector<LL> V;
-		fori(i,0,n)
-		{
-			if(A[i]!=B[i])
-			{
-				p=i+1;
-				V.pb(p);V.pb(1);V.pb(p);
-			}
-		}
+		fori(i,0,n) if(A[i]!=B[i]) {p=i+1;V.pb(p);V.pb(1);V.pb(p);}
 		n1=V.size();
 		cout<<n1<<" ";
         fori(i,0,n1) cout<<V[i]<<" ";endl;
