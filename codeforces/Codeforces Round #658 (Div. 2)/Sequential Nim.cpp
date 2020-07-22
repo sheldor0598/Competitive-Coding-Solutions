@@ -26,9 +26,9 @@ int main()
 	cin>>t;
 	go(t)
 	{
-		LL n,f=1;
+		LL n;
 		cin>>n;
-		LL A[n],i;
+		LL A[n],i,f=1;
         fori(i,0,n) cin>>A[i];
         fori(i,0,n)
         {
